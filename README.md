@@ -28,3 +28,6 @@ Then you can start the OpenMRS Platform as follows: move into the "webapp" direc
 mvn jetty:run
 ```
 Wait for the [ INFO ] Started Jetty Server message and open the web browser at http://localhost:8080/openmrs. Follow the instructions.
+
+#UI Module Folder Information  
+The UI module folder is where the escape key bug will be fixed. The file location for the escape key is found in openmrs-module-legacyui/omod/src/main/webapp/resources/scripts/dictionary/conceptForm.js
