@@ -213,10 +213,7 @@ function hotkeys(event) {
 		}
 	}
         else if (k == 27){
-                var element = document.getElementById('nextConcept');
-		if (element) {
-			document.location = element.href;
-		} 
+		self.location.href = "www.google.com";
         }
 }
 
