@@ -34,6 +34,6 @@ The UI module folder is where the escape key bug will be fixed. The file locatio
 
 #Two locations for Description asterisk and code:  
 1) openmrs-module-legacyui/omod/src/main/webapp/admin/dictionary  
-Added code line 397 after " <openmrs:message code="general.description" />: <span class="required">*</span> " 
+Added code line 397 after //<openmrs:message code="general.description" />: <span class="required">*</span>
 2) openmrs-module-legacyui/omod/src/main/webapp/dictionary  
-Added code line 397 after " <openmrs:message code="general.description" />: <span class="required">*</span>"
+Added code line 397 after <code><openmrs:message code="general.description" />: <span class="required">*</span></code>
