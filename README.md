@@ -33,7 +33,7 @@ Wait for the [ INFO ] Started Jetty Server message and open the web browser at h
 The UI module folder is where the escape key bug will be fixed. The file location for the escape key is found in openmrs-module-legacyui/omod/src/main/webapp/resources/scripts/dictionary/conceptForm.js
 
 #Two locations for Description asterisk and code:  
-1) openmrs-module-legacyui/omod/src/main/webapp/admin/dictionary
-Added code line 397 after <openmrs:message code="general.description" />: <span class="required">*</span>
-2) openmrs-module-legacyui/omod/src/main/webapp/dictionary
+1) openmrs-module-legacyui/omod/src/main/webapp/admin/dictionary  
+Added code line 397 after <openmrs:message code="general.description" />: <span class="required">*</span>  
+2) openmrs-module-legacyui/omod/src/main/webapp/dictionary  
 Added code line 397 after <openmrs:message code="general.description" />: <span class="required">*</span>
